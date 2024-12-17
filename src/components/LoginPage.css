@@ -1,0 +1,77 @@
+/* LoginPage.css */
+
+/* Container for the login page with flex layout */
+.login-container {
+  display: flex; /* Uses flexbox to arrange the content */
+  flex-direction: column; /* Stacks child elements vertically */
+  align-items: center; /* Centers items horizontally */
+  justify-content: center; /* Centers items vertically */
+  min-height: 100vh; /* Full viewport height */
+  background-image: url("D:\sflix\frontend\src\picture\login-background.jpg"); /* Optional: Set a background image */
+  background-size: cover; /* Ensures the background image covers the whole container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+/* Styling for the main heading of the login page */
+h2 {
+  margin-bottom: 20px; /* Space between the heading and the form */
+  color: #ffffff; /* Dark grey color for text */
+  font-family: "Arial", sans-serif; /* Font family for the heading */
+}
+
+/* Container for the login form */
+.login-form {
+  display: flex; /* Uses flexbox to align form elements */
+  flex-direction: column; /* Stacks the form elements vertically */
+  width: 300px; /* Sets the width of the form */
+  background: transparent; /* White background for the form */
+  padding: 20px; /* Padding inside the form */
+  border-radius: 8px; /* Rounded corners for the form */
+  box-decoration-break: slice;
+}
+
+/* Styling for input fields in the login form */
+.login-form input {
+  margin-bottom: 15px; /* Space between input fields */
+  padding: 10px; /* Padding inside the input fields */
+  border: 2px solid #cccccc1a; /* Light grey border */
+  border-radius: 7px; /* Rounded corners for the input fields */
+  background-color: #2f2e2ebb;
+
+  font-size: 14px; /* Smaller font size for input text */
+}
+
+.login-input:hover {
+  /* White text color */
+  background-color: #2f2e2e; /* Darker blue when hovered */
+}
+/* Styling for the login button */
+.login-btn {
+  background-color: #007afd93; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 10px; /* Padding inside the button */
+  border: 1px; /* No border around the button */
+  border-radius: 7px; /* Rounded corners for the button */
+  font-size: 16px; /* Larger font size for the button text */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect for the login button */
+.login-btn:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}
+
+/* Styling for the toggle link (to switch between login and signup) */
+.toggle-link {
+  margin-top: 10px; /* Space between the button and the link */
+  color: #cccfd3; /* Blue color for the link */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 14px; /* Smaller font size */
+  text-align: center; /* Centers the text */
+}
+
+/* Hover effect for the toggle link */
+.toggle-link:hover {
+  text-decoration: underline; /* Underlines the link on hover */
+}

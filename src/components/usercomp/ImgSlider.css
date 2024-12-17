@@ -1,0 +1,13 @@
+.img-slider {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .img-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s ease;
+  }
+  
